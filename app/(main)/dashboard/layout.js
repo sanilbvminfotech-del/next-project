@@ -13,7 +13,7 @@ export default function DashboardLayout({
     return isLoggedIn ? (
         <div className="flex min-h-screen flex-col bg-zinc-50 p-6 dark:bg-zinc-950">
             <header className="flex justify-between mb-4">
-                <h1 className="font-bold">Ruffy</h1>
+                <h1 className="font-bold">ruffy</h1>
                 <button
                     onClick={() => setIsLoggedIn(false)}
                     className="text-red-500 text-sm border border-red-500 px-2 py-1 rounded hover:bg-red-50"
